@@ -1,0 +1,6 @@
+/*CSS ROOT*/
+:root {
+    --lime-color: #33cc33;
+    --special-spacing: -0.3em;
+    --brilho: 0 0 4px var(--lime-color);
+}

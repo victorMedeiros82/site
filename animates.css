@@ -1,0 +1,89 @@
+/*css das animações*/
+/*BODY*/
+body {
+    background: linear-gradient(-45deg, #000, #3c006b);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+    animation: colors 7s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/*------------------------------------------------------------------*/
+/*TYPEWRITER*/
+.typewriter:after {
+    content: "|";
+    opacity: 1;
+    animation: blink 0.7s linear infinite;
+    color: var(--lime-color);
+    margin: 0;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+/*------------------------------------------------------------------*/
+/*IMAGEM*/
+@-webkit-keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.fadeInUp {
+    -webkit-animation-name: fadeInUp;
+    animation-name: fadeInUp;
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+.animated {
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+/*ANIMAÇÃO DO TEXTO DE APRESENTAÇÃO*/

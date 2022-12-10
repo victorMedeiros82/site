@@ -175,15 +175,15 @@ p {
 
 .html5 {
   color: #ffa500;
-  filter: drop-shadow(0 0 1.25rem #ffa500);
-  }
+  filter: drop-shadow(0 0 0.6rem #ffa500);
+}
 
 .css3 {
   color: #0055ff;
-  filter: drop-shadow(0 0 1.25rem #0055ff);
+  filter: drop-shadow(0 0 0.6rem #0055ff);
 }
 
 .javaScript {
   color: #ff0;
-  filter: drop-shadow(0 0 1.25rem #D4F600);
+  filter: drop-shadow(0 0 0.6rem #D4F600);
 }
